@@ -1,0 +1,320 @@
+@font-face {
+  font-family: 鏂规澶ч粦绠€浣�;
+  src: url('../fonts/fzdhjt.ttf');
+}
+
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+table,
+form,
+input,
+textarea,
+select,
+button,
+p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  font-family: 寰蒋闆呴粦, Arial;
+  background: #fff;
+  line-height: 1.5;
+  color: #555;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+input,
+textarea,
+select,
+button {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: #555;
+}
+
+a:focus {
+  outline: none;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.f2f2f4 {
+  background: #f2f2f4;
+}
+
+.h-13 {
+  height: 13.3vw;
+}
+
+header {
+  width: 100%;
+}
+
+header .logo {
+  width: 26vw;
+  border: .28vw solid #f7fafd;
+}
+
+header .logo img {
+  width: 100%;
+  display: block;
+}
+
+header .headerimg {
+  width: 73.72vw;
+}
+
+header .headerimg img {
+  width: 100%;
+  display: block;
+}
+
+.header-back {
+  background: #277cd9;
+  height: 13.3vw;
+  line-height: 13.3vw;
+  position: relative;
+  padding: 0 4vw;
+}
+
+.header-back .back {
+  position: absolute;
+  width: 3.2vw;
+  height: 4.5vw;
+  left: 4vw;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.header-back .back img {
+  width: 100%;
+  display: block;
+}
+
+.header-back .header-title {
+  font-size: 4.5vw;
+  color: #fff;
+  text-align: center;
+}
+
+.login {
+  padding: 8vw 4vw;
+  background: #f2f2f4;
+}
+
+.login .content {
+  padding: 0 3vw;
+}
+
+.login .content input {
+  width: 100%;
+  height: 13.4vw;
+  line-height: 13.4vw;
+  border-radius: 6.7vw;
+  border: none;
+  padding: 0 12.8vw;
+  margin-bottom: 4vw;
+  font-size: 4vw;
+  color: #333;
+}
+
+.login .content input::-webkit-input-placeholder {
+  font-size: 4vw;
+  color: #cecfce;
+}
+
+.login .content .username input {
+  background: #fff url('../images/user.png') 5.8vw center no-repeat;
+  background-size: 4vw;
+}
+
+.login .content .tel input {
+  background: #fff url('../images/tel001.png') 5.8vw center no-repeat;
+  background-size: 4vw;
+}
+
+.login .content .password input {
+  background: #fff url('../images/password.png') 5.8vw center no-repeat;
+  background-size: 4vw;
+}
+
+.login .content .wpassword p {
+  line-height: 100%;
+  margin-bottom: 6.6vw;
+}
+
+.login .content .wpassword a {
+  font-size: 4vw;
+  color: #4c4c4c;
+}
+
+.login .content .button {
+  margin-bottom: 8vw;
+}
+
+.login .content .button button {
+  width: 100%;
+  height: 13.4vw;
+  line-height: 13.4vw;
+  border-radius: 6.7vw;
+  border: none;
+  background: #277cd9;
+  color: #fff;
+  font-size: 4.8vw;
+  letter-spacing: 6vw;
+  text-indent: 6vw;
+}
+
+.login .content .p p {
+  font-size: 4vw;
+  color: #4c4c4c;
+}
+
+.login .content .p p a {
+  color: #277cd9;
+  border-bottom: 1px solid #277cd9;
+}
+
+.register .cartid input {
+  background: #fff url('../images/cartid.png') 5.8vw center no-repeat;
+  background-size: 4vw;
+}
+
+.register .cmpname input {
+  background: #fff url('../images/cmp_name.png') 5.8vw center no-repeat;
+  background-size: 4vw;
+}
+
+#indexContent {
+  text-align: center;
+  background: #277cd9;
+  padding-top: 40vw;
+}
+
+#indexContent .logo {
+  width: 34vw;
+  margin: 0 auto 20.8vw;
+}
+
+#indexContent .logo img {
+  width: 100%;
+  display: block;
+}
+
+#indexContent .btn a {
+  display: block;
+  width: 66.6vw;
+  height: 10.6vw;
+  border: .4vw solid #fff;
+  color: #fff;
+  border-radius: 5.3vw;
+  margin: 0 auto 10.4vw;
+  line-height: 10.6vw;
+  font-size: 4.5vw;
+}
+
+#indexContent .btn a.active {
+  background: #fff;
+  color: #277cd9;
+}
+
+.userIndex-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 13.3vw;
+  background: #fff;
+  box-shadow: 0 0 10px 0px #dfdfdf;
+}
+
+.userIndex-footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.userIndex-footer ul li {
+  width: 33.33vw;
+  text-align: center;
+}
+
+.userIndex-footer ul li p {
+  font-size: 3.2vw;
+  color: #606060;
+}
+
+.userIndex-footer ul li.active p {
+  color: #277cd9;
+}
+
+.userIndex-footer ul li .img {
+  width: 4.5vw;
+  height: 4.5vw;
+  margin: 0 auto 1vw;
+}
+
+.userIndex-footer ul li.data-class .img {
+  background: url('../images/footer_01.png');
+  background-size: 100%;
+}
+
+.userIndex-footer ul li.data-class.active .img {
+  background: url('../images/footer_001.png');
+  background-size: 100%;
+}
+
+.userIndex-footer ul li.all-class .img {
+  background: url('../images/footer_02.png');
+  background-size: 100%;
+}
+
+.userIndex-footer ul li.all-class.active .img {
+  background: url('../images/footer_002.png');
+  background-size: 100%;
+}
+
+.userIndex-footer ul li.my .img {
+  background: url('../images/footer_03.png');
+  background-size: 100%;
+}
+
+.userIndex-footer ul li.my.active .img {
+  background: url('../images/footer_003.png');
+  background-size: 100%;
+}
